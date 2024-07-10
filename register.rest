@@ -1,0 +1,11 @@
+POST http://localhost:1009/api/signup
+Content-Type:application/json
+
+{    "username":"anand",
+    "email":"sai@gmail.com",
+    "password":"123"
+}
+
+###
+GET http://localhost:1009/api/data
+Authentication:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGQxNWRkNTllZmViODBkOGIxMTQ4ZiIsImlhdCI6MTcyMDUyMjIyNX0.3vo2f5fkSBvUzsginHmgfEewDVcVC-AEE8jALYgCkI4
